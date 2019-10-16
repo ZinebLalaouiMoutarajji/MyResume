@@ -11,8 +11,8 @@ body{
   background: #0C1317;
 }
 #wrapper{
-  max-width: 900px;
-  min-width: 320px;
+  max-width: 1900px;
+  min-width: 1320px;
   margin: 0 auto;
   width: 100px;
 }
@@ -22,7 +22,7 @@ header img {
 		height: 150px;
 		position: relative;
 		width: 150px;
-    left: 1300px;
+    left: 1100px;
     top: -190px;
 	}
   h1,h2,p{

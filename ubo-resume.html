@@ -7,27 +7,32 @@
   <meta name="description" content="A propos de moi">
   <meta name="keywords" content="web,developer,resume">
   <meta name="author" content="Mon nom">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/resume.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="//use.edgefonts.net/amatic-sc.js"></script>
+
+
+  </div>
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><
   ![endif]-->
 </head>
 <body>
   <div  id="wrapper">
-    </div>
+  </div>
+
     <article>
-      <header>
+      <header itemscope itemtype="http://schema.org/Person">
         <div class="NOM">
-          <h1>LALAOUI MOUTARAJJI Zineb</h1>
+          <h1 itemprop="familyName">LALAOUI MOUTARAJJI Zineb</h1>
         </div>
         <div class="ACTIVITE">
-          <h2>Ingenieur en genie logiciel et developpement mobile</h2>
+          <h2 itemprop="jobTitle">Ingenieur en genie logiciel et developpement mobile</h2>
         </div>
         <img src="zineb.jpg" width="100px" height="100px" />
-        <div class="INTRO">
+        <div class="INTRO" itemprop="knowsAbout">
           <p>
             Elève ingénieur en master 2 en Développement lOgiciel des Systèmes d’Information Ayant déjà un diplôme d'ingénieur d'état
             en génie logiciel et développement mobile, passionnée par la qualité logiciel. Ma polyvalence,
@@ -35,23 +40,22 @@
           </p>
 
         </div>
-
-
       </header>
-      <div class="CONTACT">
+
+      <div class="CONTACT" itemscope itemtype="http://schema.org/Person">
         <div class="PHONE">
-        <h3><i class="fa fa-phone"></i>&nbsp;+33 7 64 25 15 65</h3>
+        <h3 itemprop="telephone"><i class="fa fa-phone"></i>&nbsp;+33 7 64 25 15 65</h3>
 
         </div>
         <div class="ADDRESEE">
-            <h3><i class="fa fa-map-marker"></i>&nbsp;2-Rue des Archives Res Univ Kergoat 29200 BREST</h3>
+            <h3 itemprop="homeLocation"><i class="fa fa-map-marker"></i>&nbsp;2-Rue des Archives Res Univ Kergoat 29200 BREST</h3>
         </div>
         <div class="EMAIL">
-          <h3><i class="fa fa-envelope-o"></i>&nbsp; zeyneb.lalaoui@gmail.com</h3>
+          <h3 itemprop="email"><i class="fa fa-envelope-o"></i>&nbsp; zeyneb.lalaoui@gmail.com</h3>
 
         </div>
         <div class="NAISS">
-            <h3><i class="fa fa-birthday-cake"></i>&nbsp;24 ans</h3>
+            <h3 itemprop="birthDate"><i class="fa fa-birthday-cake"></i>&nbsp;24 ans</h3>
 
         </div>
       </div>
